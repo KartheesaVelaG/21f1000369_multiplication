@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-st.write('Multiplication of 2 given numbers.')
+st.write('Multiplication of Two Numbers')
 
 option1 = st.selectbox('Select type of first number', ('float', 'integer'))
 if (option1=='float'):
